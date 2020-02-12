@@ -23,9 +23,9 @@ class NavBar extends React.Component{
   </button>
   <div className={"collapse navbar-collapse " + show}>
     <div className="navbar-nav">
-      <a className="nav-item nav-link active" href="/Inicio">Inicio <span className="sr-only">(current)</span></a>
+      <a className="nav-item nav-link active" href="/inicio">Inicio <span className="sr-only">(current)</span></a>
       <a className="nav-item nav-link" href="/">Tienda</a>
-      <a className="nav-item nav-link" href="/Descargas">Descargas</a>
+      <a className="nav-item nav-link" href="/descargas">Descargas</a>
       <a className="nav-item nav-link disabled" href="/" aria-disabled="true">Servidores</a>
     </div>
   </div>
