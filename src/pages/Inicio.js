@@ -3,9 +3,9 @@ import React from 'react';
 class inicio extends React.Component{
     render(){
     return (
-        <div>
+        <React.Fragment>
             <p>Proximamente...</p>
-        </div>
+        </React.Fragment>
     );
 }
 
