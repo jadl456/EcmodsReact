@@ -10,7 +10,7 @@ class inicio extends React.Component{
     return (
         
         <React.Fragment>
-            <div className="container mt-2">
+            <main role="main" className="container mt-2">
             <div className="jumbotron">
                 <p><h2>ElectroMods</h2></p>
             </div>
@@ -23,7 +23,7 @@ class inicio extends React.Component{
             />
             <p>Juadores conectados</p>
             <Querry/>
-            </div>
+            </main>
             
         </React.Fragment>
     );
