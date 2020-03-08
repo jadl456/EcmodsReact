@@ -20,7 +20,6 @@ class inicio extends React.Component{
             style={{ display: 'block' }}
             format='auto'
             responsive='true'
-            layoutKey='-gw-1+2a-9x+5c'
             />
             <p>Juadores conectados</p>
             <Querry/>
