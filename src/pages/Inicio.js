@@ -8,7 +8,7 @@ class inicio extends React.Component{
     render(){
     return (
         <React.Fragment>
-            <div class="container mt-2">
+            <div className="container mt-2">
             <div className="jumbotron">
                 <p><h2>ElectroMods</h2></p>
             </div>

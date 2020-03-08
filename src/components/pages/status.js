@@ -55,7 +55,7 @@ class status extends React.Component{
         return(
         <ul class="list-group">
                 {this.state.data.Playerlist.map(character =>(
-                    <li class="list-group-item" key={character.id}>
+                    <li className="list-group-item" key={character.id}>
                         <CharacterCard character={character}/>
                     </li>
                 ))}

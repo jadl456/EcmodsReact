@@ -54,11 +54,13 @@ class query extends React.Component{
     render(){
         return(
         <ul class="list-group">
-                {this.state.data.Playerlist.map(character =>(
-                    <li class="list-group-item" key={character.id}>
+                {this.state.data.Playerlist && this.state.data.Playerlist.map(character =>(
+                    <li className="list-group-item" key={character.id}>
                         <CharacterCard character={character}/>
                     </li>
                 ))}
+                {this.state.data.Playerlist ? '' : 'No hay judadores conectados'}
+                
             </ul>
         )
     }
