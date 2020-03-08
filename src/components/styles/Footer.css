@@ -9,3 +9,8 @@
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
 }
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
