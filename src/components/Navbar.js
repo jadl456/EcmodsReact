@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/Navbar.css';
+import {NavLink, Link} from 'react-router-dom';
 
 class NavBar extends React.Component{
     constructor(props) {
@@ -24,10 +25,16 @@ class NavBar extends React.Component{
   </button>
   <div className={"collapse navbar-collapse " + show}>
     <div className="navbar-nav">
-      <a className="nav-item nav-link active" href="/inicio">Inicio <span className="sr-only">(current)</span></a>
-      <a className="nav-item nav-link" href="https://electromodsoficial.buycraft.net/">Tienda</a>
-      <a className="nav-item nav-link" href="/descargas">Descargas</a>
-      <a className="nav-item nav-link disabled" href="/" aria-disabled="true">Servidores</a>
+      <NavLink exact to="/inicio" activeClassName="active">
+        <a className="nav-item nav-link" href="/inicio">Inicio</a>
+      </NavLink>
+      <Link className="nav-item nav-link" target="_blank" to="//electromodsoficial.buycraft.net/">Tienda</Link>
+      
+        <a className="nav-item nav-link disabled" href="/" aria-disabled="true">Descargas</a>
+      
+      
+        <a className="nav-item nav-link disabled" href="/" aria-disabled="true">Votar</a>
+      
     </div>
   </div>
 </nav>
