@@ -29,7 +29,9 @@ class NavBar extends React.Component{
         <a className="nav-item nav-link" href="/inicio">Inicio</a>
       </NavLink>
         <Link className="nav-item nav-link" target="_blank" to="//electromodsoficial.buycraft.net/">Tienda</Link>
-        <a className="nav-item nav-link disabled" href="/" aria-disabled="true">Descargas</a>
+      <NavLink exact to="/descargas" activeClassName="active">
+        <a className="nav-item nav-link" href="/descargas">Descargas</a>
+      </NavLink>
       <NavLink exact to="/vote" activeClassName="active">
         <a className="nav-item nav-link" href="/vote">Votar</a>
       </NavLink>

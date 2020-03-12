@@ -14,8 +14,10 @@ class Vote extends React.Component{
                 responsive='true'
             />
                 <div className="row">
-                    <button type="button" className="btn btn-primary col-md-6">Mediafire</button>
-                    <button type="button" className="btn btn-danger col-md-6">Mega</button>
+                    <button type="button" className="btn btn-primary btn-block">Opcion 1</button>
+                    <button type="button" className="btn btn-danger btn-block">Opcion 2</button>
+                    <button type="button" className="btn btn-secondary btn-block">Opcion 3</button>
+                    <button type="button" className="btn btn-info btn-block">Opcion 4</button>
                 </div>
             </main>
         )
