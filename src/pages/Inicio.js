@@ -15,11 +15,11 @@ class inicio extends React.Component{
                 <p><h2>ElectroMods</h2></p>
             </div>
             <AdSense.Google
-            client='ca-pub-8559008179999989'
-            slot='5530225095'
-            style={{ display: 'block' }}
-            format='auto'
-            responsive='true'
+                client='ca-pub-8559008179999989'
+                slot='5530225095'
+                style={{ display: 'block' }}
+                format='auto'
+                responsive='true'
             />
             <p>Juadores conectados</p>
             <Querry/>
