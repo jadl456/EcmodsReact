@@ -13,7 +13,7 @@ class Vote extends React.Component{
                 format='auto'
                 responsive='true'
             />
-                <div className="row">
+                <div className="row mt-2">
                     <button type="button" className="btn btn-primary btn-block">Opcion 1</button>
                     <button type="button" className="btn btn-danger btn-block">Opcion 2</button>
                     <button type="button" className="btn btn-secondary btn-block">Opcion 3</button>
