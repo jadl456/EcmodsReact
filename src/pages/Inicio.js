@@ -12,8 +12,8 @@ class inicio extends React.Component{
         <React.Fragment>
             <main role="main" className="container mt-2">
             <div className="jumbotron">
-                <p><h2>ElectroMods</h2></p>
-                <p><h3>Ip: Proximamente</h3></p>
+                <p><h1>ElectroMods</h1></p>
+                <p><h4>Ip: Proximamente</h4></p>
             </div>
             <AdSense.Google
                 client='ca-pub-8559008179999989'
