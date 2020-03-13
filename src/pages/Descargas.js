@@ -13,7 +13,7 @@ class Descargas extends React.Component{
                 format='auto'
                 responsive='true'
             />
-                <div className="row">
+                <div className="row mt-2">
                     <button type="button" className="btn btn-outline-primary btn-block">Mediafire</button>
                     <button type="button" className="btn btn-outline-danger btn-block">Mega</button>
                 </div>
