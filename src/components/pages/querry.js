@@ -4,7 +4,7 @@ function CharacterCard(props) {
     const { character } = props;
   
     return (//"display: inline-block;"
-        <a data-placement="top" rel="tooltip" style={{display: "inline-block"}} title="" href>
+        <a data-placement="top" rel="tooltip" style={{display: "inline-block"}} title={character} href>
             <img src= {"https://minotar.net/avatar/"+character+"/50.png"} alt={character} data-toggle="tooltip" data-placement="bottom" title={character} style={{width: "40px", height: "40px", marginBottom: "5px", marginRight: "5px", borderRadius: "3px"}}/>
         </a>
     );
