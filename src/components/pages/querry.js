@@ -3,11 +3,10 @@ import React from 'react';
 function CharacterCard(props) {
     const { character } = props;
   
-    return (
-        <div >
-            <img src= {"https://minotar.net/avatar/"+character+"/25.png"} alt={character} data-toggle="tooltip" data-placement="bottom" title={character}/>
-          {character}
-        </div>
+    return (//"display: inline-block;"
+        <a data-placement="top" rel="tooltip" style={{display: "inline-block"}} title="" href>
+            <img src= {"https://minotar.net/avatar/"+character+"/50.png"} alt={character} data-toggle="tooltip" data-placement="bottom" title={character} style={{width: "40px", height: "40px", marginBottom: "5px", marginRight: "5px", borderRadius: "3px"}}/>
+        </a>
     );
   }
 
@@ -52,16 +51,16 @@ class query extends React.Component{
     };
 
     render(){
-        return(
-        <ul class="list-group">
+        return(//style="font-size:0px;
+            <div class="span8" style={{fontSize: "0px"}}>
                 {this.state.data.Playerlist && this.state.data.Playerlist.map(character =>(
-                    <li className="list-group-item" key={character.id}>
+                    
                         <CharacterCard character={character}/>
-                    </li>
+                    
                 ))}
                 {this.state.data.Playerlist ? '' : 'No hay judadores conectados'}
                 
-            </ul>
+            </div>
         )
     }
 }

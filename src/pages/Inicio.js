@@ -13,6 +13,7 @@ class inicio extends React.Component{
             <main role="main" className="container mt-2">
             <div className="jumbotron">
                 <p><h2>ElectroMods</h2></p>
+                <p><h3>Ip: Proximamente</h3></p>
             </div>
             <AdSense.Google
                 client='ca-pub-8559008179999989'
