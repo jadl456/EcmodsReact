@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/Navbar.css';
+
 import {NavLink, Link} from 'react-router-dom';
 
 class NavBar extends React.Component{
@@ -38,6 +39,7 @@ class NavBar extends React.Component{
     </div>
   </div>
 </nav>
+
     );
 }
 

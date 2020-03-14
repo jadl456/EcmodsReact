@@ -6,6 +6,7 @@ class Footer extends React.Component{
     render(){
         
         return(
+            
             <footer className="blog-footer mt-2">
                 <div className="container">
                     <span>Ecmods {(new Date().getFullYear())}</span>
