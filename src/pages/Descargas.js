@@ -17,6 +17,7 @@ class Descargas extends React.Component{
                 <div className="row my-2">
                     <Link type="button" className="btn btn-outline-primary btn-block" to="//www.mediafire.com/file/gp0pise6htt6eeo/mods_1.7.10.rar/file" target="_blank">Mediafire</Link>
                     <Link type="button" className="btn btn-outline-danger btn-block" to="//mega.nz/#!1jp0mAbb!_r9zYgWb4qUqFBKtiKt4NcrwnWQTkMSIJrck6dSZMns" target="_blank">Mediafire</Link>
+                    <Link type="button" className="btn btn-outline-danger btn-block" to="//files.minecraftforge.net/maven/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forge-1.7.10-10.13.4.1614-1.7.10-installer.jar" target="_blank">Forge 1.7.10</Link>
                 </div>
                 <AdSense.Google
                     client='ca-pub-8559008179999989'
