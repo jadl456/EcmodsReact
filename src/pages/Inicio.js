@@ -3,6 +3,8 @@ import React from 'react';
 import Querry from '../components/pages/querry';
 // import ReactDOM from "react-dom";
 import AdSense from 'react-adsense';
+import AdBlock from '../components/pages/AdBlock';
+
 
 class inicio extends React.Component{
 
@@ -10,6 +12,7 @@ class inicio extends React.Component{
     return (
         
         <React.Fragment>
+            <AdBlock/>
             <main role="main" className="container mt-2">
             <div className="jumbotron">
                 <p><h1>ElectroMods</h1></p>

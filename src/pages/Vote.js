@@ -2,11 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import AdSense from 'react-adsense';
+import AdBlock from '../components/pages/AdBlock';
+
 
 class Vote extends React.Component{
     render(){
         return(
             <main role="main" className="container mt-2">
+                <AdBlock/>
                 <AdSense.Google
                 client='ca-pub-8559008179999989'
                 slot='9677299766'
