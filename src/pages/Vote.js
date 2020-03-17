@@ -17,7 +17,7 @@ class Vote extends React.Component{
                 format='auto'
                 responsive='true'
             />
-                <div className="row mt-2 mp-2">
+                <div className="row my-2">
                     <Link type="button" to="//stfly.io/Voto" className="btn btn-primary btn-block">Opcion 1</Link>
                     <Link type="button" to="//stfly.io/Votoo" className="btn btn-danger btn-block">Opcion 2</Link>
                     <Link type="button" to="//stfly.io/Voto3" className="btn btn-secondary btn-block">Opcion 3</Link>

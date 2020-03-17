@@ -13,7 +13,7 @@ class inicio extends React.Component{
         
         <React.Fragment>
             <AdBlock/>
-            <main role="main" className="container mt-2">
+            <main role="main" className="container my-2">
             <div className="jumbotron">
                 <p><h1>ElectroMods</h1></p>
                 <p><h4>Ip: Proximamente</h4></p>
@@ -25,10 +25,11 @@ class inicio extends React.Component{
                 format='auto'
                 responsive='true'
             />
+            <div className="container">
             <p>Juadores conectados</p>
-            <Querry/>
+                <Querry/>
+            </div>
             </main>
-            
         </React.Fragment>
     );
 }
