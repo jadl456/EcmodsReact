@@ -7,7 +7,7 @@ import AdSense from 'react-adsense';
 import AdBlock from '../components/pages/AdBlock';
 
 
-class inicio extends React.Component{
+class Inicio extends React.Component{
 
     render(){
     return (
@@ -39,4 +39,4 @@ class inicio extends React.Component{
 
 }
 
-export default inicio;
+export default Inicio;
