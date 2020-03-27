@@ -23,7 +23,7 @@ class query extends React.Component{
     componentDidMount(){
         this.fetchCharacters();
 
-        this.intervalId = setInterval(this.fetchCharacters, 5000);
+        this.intervalId = setInterval(this.fetchCharacters, 6000);
     }
 
     componentWillUnmount() {
@@ -34,7 +34,7 @@ class query extends React.Component{
         this.setState({loading: true, error: null})
 
         try{
-        const response = await fetch('https://api.minetools.eu/query/ecmods.craft.gg/25565');
+        const response = await fetch('https://api.minetools.eu/query/mc.ecmods.com/25565');
 
         const data = await response.json();
 

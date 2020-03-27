@@ -1,15 +1,15 @@
 import React from 'react';
 
-function CharacterCard(props) {
-    const { character } = props;
+// function CharacterCard(props) {
+//     const { character } = props;
   
-    return (
-        <div >
-            <img src= {"https://minotar.net/avatar/"+character+"/25.png"} alt={character}/>
-          {character}
-        </div>
-    );
-  }
+//     return (
+//         <div >
+//             <img src= {"https://minotar.net/avatar/"+character+"/25.png"} alt={character}/>
+//           {character}
+//         </div>
+//     );
+//   }
 
 class status extends React.Component{
 
@@ -35,7 +35,7 @@ class status extends React.Component{
         this.setState({loading: true, error: null})
 
         try{
-        const response = await fetch('https://api.minetools.eu/query/ecmods.craft.gg/25565');
+        const response = await fetch('https://api.minetools.eu/query/mc.ecmods.com/25565');
 
         const data = await response.json();
 
@@ -53,13 +53,9 @@ class status extends React.Component{
 
     render(){
         return(
-        <ul class="list-group">
-                {this.state.data.Playerlist.map(character =>(
-                    <li className="list-group-item" key={character.id}>
-                        <CharacterCard character={character}/>
-                    </li>
-                ))}
-            </ul>
+        <div>
+           {this.state.data.Players ? <h4>Jugadores conectados: {this.state.data.Players}/{this.state.data.MaxPlayers}</h4> : 'No hay judadores conectados'}       
+        </div>
         )
     }
 }
