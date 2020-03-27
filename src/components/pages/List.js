@@ -11,7 +11,7 @@ import React from 'react';
 //     );
 //   }
 
-class status extends React.Component{
+class List extends React.Component{
 
     state = {
         loading: true,
@@ -60,4 +60,4 @@ class status extends React.Component{
     }
 }
 
-export default status;
+export default List;
