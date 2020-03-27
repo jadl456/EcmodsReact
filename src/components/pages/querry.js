@@ -55,7 +55,7 @@ class Querry extends React.Component{
             <div class="my-2">
                 {this.state.data.Playerlist && this.state.data.Playerlist.map(character =>(
                     
-                        <CharacterCard character={character}/>
+                        <CharacterCard character={character.toString()}/>
                     
                 ))}
                 {this.state.data.Playerlist ? '' : 'No hay judadores conectados'}
