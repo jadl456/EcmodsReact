@@ -19,7 +19,7 @@ class inicio extends React.Component{
                 <p><h1>ElectroMods</h1></p>
                 <p><h4>Ip: mc.ecmods.com</h4></p>
                 <p><h5>Versión: 1.7.10</h5></p>
-                <Status/>
+                
             </div>
             <AdSense.Google
                 client='ca-pub-8559008179999989'
