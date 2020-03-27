@@ -54,7 +54,7 @@ class List extends React.Component{
     render(){
         return(
         <div>
-           {this.state.data.Players ? <h4>Jugadores conectados: {this.state.data.Players}/{this.state.data.MaxPlayers}</h4> : 'No hay judadores conectados'}       
+           {this.state.data.Players ? <h4>Jugadores conectados: {this.state.data.Players}/{this.state.data.MaxPlayers}</h4> : <h4>No hay judadores conectados</h4>}       
         </div>
         )
     }

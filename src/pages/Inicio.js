@@ -28,10 +28,13 @@ class Inicio extends React.Component{
                 format='auto'
                 responsive='true'
             />
+<iframe title="s" src="http://www.strawpoll.me/embed_1/19632927" style={{width: "700px", height:"420px", border:"0"}}>Loading poll...</iframe>
+
             <div className="container">
             <p>Juadores conectados</p>
                 <Server/>
             </div>
+            
             </main>
         </React.Fragment>
     );
