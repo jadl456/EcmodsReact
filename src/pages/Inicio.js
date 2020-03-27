@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Querry from '../components/pages/Querry';
+import Server from '../components/pages/Server';
 import Status from '../components/pages/Status';
 //import ReactDOM from "react-dom";
 import AdSense from 'react-adsense';
@@ -30,7 +30,7 @@ class Inicio extends React.Component{
             />
             <div className="container">
             <p>Juadores conectados</p>
-                <Querry/>
+                <Server/>
             </div>
             </main>
         </React.Fragment>

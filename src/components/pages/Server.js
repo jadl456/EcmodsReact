@@ -10,7 +10,7 @@ function CharacterCard(props) {
     );
   }
 
-class Querry extends React.Component{
+class Server extends React.Component{
 
     state = {
         loading: true,
@@ -66,4 +66,4 @@ class Querry extends React.Component{
     }
 }
 
-export default Querry;
+export default Server;
