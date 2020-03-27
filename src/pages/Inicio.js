@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Querry from '../components/pages/Querry';
-import Status from '../components/pages/Status';
+//import Status from '../components/pages/Status';
 // import ReactDOM from "react-dom";
 import AdSense from 'react-adsense';
 import AdBlock from '../components/pages/AdBlock';
