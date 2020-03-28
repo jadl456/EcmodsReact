@@ -28,13 +28,18 @@ class Inicio extends React.Component{
                 format='auto'
                 responsive='true'
             />
-<iframe title="s" src="https://www.strawpoll.me/embed_1/19634403" style={{width: "700px", height:"420px", border:"0"}}>Loading poll...</iframe>
-
             <div className="container">
-            <p>Juadores conectados</p>
+            <h4>Juadores conectados</h4>
                 <Server/>
             </div>
-            
+            <div className="row">
+                <div className="col-md-8">
+                    <iframe title="StrawPoll" src="https://www.strawpoll.me/embed_1/19634403" style={{width: "700px", height:"500px", border:"0"}}>Cargando encuesta...</iframe>
+                </div>
+                <div className="col-md-4">
+                    <iframe title="Discord" src="https://discordapp.com/widget?id=609629500770091009&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>    
+                </div>
+            </div>
             </main>
         </React.Fragment>
     );
