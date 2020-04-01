@@ -18,10 +18,10 @@ class Vote extends React.Component{
                 responsive='true'
             />
                 <div className="row my-2">
-                    <Link type="button" to="//stfly.io/Voto" className="btn btn-primary btn-block">Opcion 1</Link>
-                    <Link type="button" to="//stfly.io/Votoo" className="btn btn-danger btn-block">Opcion 2</Link>
-                    <Link type="button" to="//stfly.io/Voto3" className="btn btn-secondary btn-block">Opcion 3</Link>
-                    <Link type="button" to="//stfly.io/Voto4" className="btn btn-info btn-block">Opcion 4</Link>
+                    <Link type="button" to="//www.adowl.in/Voto1" className="btn btn-primary btn-block" target="_blank">Opcion 1</Link>
+                    <Link type="button" to="//www.adowl.in/Voto2" className="btn btn-danger btn-block" target="_blank">Opcion 2</Link>
+                    <Link type="button" to="//www.adowl.in/Voto3" className="btn btn-secondary btn-block" target="_blank">Opcion 3</Link>
+                    <Link type="button" to="//www.adowl.in/Voto4" className="btn btn-info btn-block" target="_blank">Opcion 4</Link>
                 </div>
 
                 <AdSense.Google
